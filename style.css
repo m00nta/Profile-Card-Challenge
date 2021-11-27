@@ -91,6 +91,7 @@ main {
   width: 35rem;
   border-radius: 14px;
   overflow: hidden;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.3);
 }
 
 .card-cover {
@@ -125,13 +126,17 @@ main {
 }
 
 .card-profile-name span {
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  color: var(--Dark-gray);
+  margin-left: 0.8rem;
 }
 
 .card-profile-location {
   color: var(--Dark-gray);
   margin-bottom: 3.2rem;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   /* letter-spacing: 1.5px; */
 }
 
@@ -159,6 +164,7 @@ main {
   color: var(--Very-dark-desaturated-blue);
   font-weight: 700;
   font-size: 1.8rem;
+  letter-spacing: 1px;
 }
 
 .attribution {
@@ -181,3 +187,14 @@ main {
 /* Media Queries at 375px */
 /* Rem and Em do NOT depend on html font-size in media  queries Instead, 1rem = 1em = 16px */
 /* So 375px = 23.44rem */
+
+@media (max-width: 23.44rem) {
+  body {
+    background-position: calc(100% - 40vw) calc(100% - 65vh),
+      calc(100% + 20vh) calc(100% + 20vw);
+  }
+
+  .card {
+    width: 33rem;
+  }
+}
