@@ -17,7 +17,12 @@ This is My solution to the [Profile card component challenge on Frontend Mentor]
 
 ### Screenshot
 
+#### Desktop
+
 ![](./screenshot.jpg)
+
+#### Mobile
+
 ![](./screenshot1.jpg)
 
 ### Links
@@ -49,11 +54,11 @@ On this challenge I learned about adding multiple image to the background and ho
 }
 ```
 
-But I am not sure if this is the right or a good solution because on mobile dosen't work.
+But I am not sure if this is the right or a good solution because it dosen't work perfect on mobile as you can see in the screenshot above.
 
 ### Continued development
 
-I want to learn understand background image and how to position them well.
+I want to learn and understand "background image" in CSS and know how to position them well.
 
 ## Author
 
